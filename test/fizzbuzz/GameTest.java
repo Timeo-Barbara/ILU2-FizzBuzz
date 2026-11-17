@@ -24,5 +24,12 @@ class GameTest {
 		game.next();
 		assertEquals("2", game.next());
 	}
+	
+	@Test
+	void firstfizzRoundTest() {
+		game.next();
+		game.next();
+		assertEquals("Fizz", game.next());
+	}
 
 }
