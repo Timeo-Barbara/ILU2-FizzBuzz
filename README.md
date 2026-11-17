@@ -15,7 +15,7 @@
 
 Backlog
 - [x] Le premier doit répondre "1"
-- [ ] Le second doit répondre "2"
+- [x] Le second doit répondre "2"
 - [ ] Le troisième doit répondre "fizz"
 - [ ] Le 4e doit répondre "4"
 - [ ] Le 5e doit répondre “Buzz”

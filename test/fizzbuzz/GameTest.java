@@ -18,5 +18,11 @@ class GameTest {
 	void firstRoundTest() {
 		assertEquals("1", game.next());
 	}
+	
+	@Test
+	void firstsecondRoundTest() {
+		game.next();
+		assertEquals("2", game.next());
+	}
 
 }

@@ -2,8 +2,12 @@ package fizzbuzz;
 
 public class Game {
 	
+	private int round = 1;
+	
 	public String next() {
-		return "1";
+		String answer = "" + round;
+		round++;
+		return answer;
 	}
 
 }
